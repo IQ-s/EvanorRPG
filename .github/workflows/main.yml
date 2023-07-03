@@ -14,4 +14,4 @@ jobs:
         server: ftp.18.svpj.link
         username: s94749
         password: PM7q2bUQDE7x
-        server-dir: ./mods/deathmatch/resources
+        server-dir: /mods/deathmatch/resources
