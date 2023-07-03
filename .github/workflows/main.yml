@@ -1,0 +1,16 @@
+on: push
+name: 🚀 Deploy to ftp
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ftp.18.svpj.link
+        username: s94749
+        password: PM7q2bUQDE7x
