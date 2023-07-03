@@ -26,4 +26,7 @@
     <file src="data/images/task_orange.png" />
     <file src="data/images/task_red.png" />
     <file src="data/images/task_icon.png" />
+    <file src="data/images/daily_award_earned.png" />
+    <file src="data/images/daily_award_toget.png" />
+    <file src="data/images/daily_award_nextday.png" />
 </meta>

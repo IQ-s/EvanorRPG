@@ -147,7 +147,10 @@ function main:init()
                 ['task_green'] = true,
                 ['task_red'] = true,
                 ['task_orange'] = true,
-                ['task_icon'] = true
+                ['task_icon'] = true,
+                ['daily_award_earned'] = true,
+                ['daily_award_toget'] = true,
+                ['daily_award_nextday'] = true
             }
             local c2 = {
                 [1] = { name = 'medium', size = 18/zoom },
