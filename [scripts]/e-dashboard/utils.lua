@@ -46,7 +46,7 @@ function main:init()
         },
         {
             texture = 'task_red',
-            description = 'Napisz "rilm to pseudol a\ncrosroad to gej"'
+            description = 'Napisz "rilm to pseudol"'
         },
         {
             texture = 'task_green',

@@ -48,15 +48,19 @@ function main:getPages()
             render = function ()
                 local x, y = sx/2-170/zoom, sy/2-225/zoom
                 for i,v in pairs(self.tasks) do
+                    if not v.ended then v.ended = math.random(20,60) end
                     dxDrawImage(x,y, 200/zoom, 160/zoom, self.textures[v.texture], 0,0,0,tocolor(255,255,255,self.alpha[2]))
                     dxDrawImage(x + 15/zoom/2,y + 13/zoom/2, 18/zoom, 18/zoom, self.textures['task_icon'], 0,0,0,tocolor(255,255,255,self.alpha[2]))
                     dxDrawText('Zadanie #'..i, x + 30/zoom, y + 33/zoom/2, nil, nil, tocolor(233,233,233,self.alpha[2]),1,self.fonts[7],'left','center')
                     dxDrawRectangle(x,y + 30/zoom, 200/zoom, 2/zoom, tocolor(68,68,68,self.alpha[2]))
                     dxDrawText(v.description, x + 200/2/zoom, y + 40/zoom, nil, nil, tocolor(187,187,187,self.alpha[2]),1,self.fonts[2],'center','top')
-                    if (v.texture == 'task_green') then
-                        dxDrawText('Ukoncz obecne zadanie\naby zaczac nowe', x + 200/2/zoom, y + 160/2/zoom, nil, nil, tocolor(255,255,255,self.alpha[2]),1,self.fonts[2],'center','center')
+                    if (v.texture == 'task_red') then
+                        --dxDrawText('Ukoncz obecne zadanie\naby zaczac nowe', x + 200/2/zoom, y + 160/2/zoom, nil, nil, tocolor(255,255,255,self.alpha[2]),1,self.fonts[2],'center','center')
                     elseif (v.texture == 'task_orange') then
-                        dxDrawText('Ukoncz obecne zadanie\naby zaczac nowe', x + 200/2/zoom, y + 160/2/zoom, nil, nil, tocolor(255,255,255,self.alpha[2]),1,self.fonts[6],'center','center')
+                        dxDrawText('50/100%', x + 200/2/zoom, y + 160/2/zoom, nil, nil, tocolor(255,255,255,self.alpha[2]),1,self.fonts[6],'center','center')
+                    elseif (v.texture == 'task_green') then
+                        dxDrawText('100/100%', x + 200/2/zoom, y + 160/2/zoom, nil, nil, tocolor(255,255,255,self.alpha[2]),1,self.fonts[6],'center','center')
+                        dxDrawText('Ukonczowo w '..v.ended..' minut', x + 200/2/zoom, y + 230/2/zoom, nil, nil, tocolor(187,187,187,self.alpha[2]),1,self.fonts[2],'center','center')
                     end
                     x = x + 220/zoom
                     if (x > sx/2+300/zoom) then
