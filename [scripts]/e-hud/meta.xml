@@ -1,0 +1,20 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+
+    <file src="data/images/custom_avatar.png" />
+    <file src="data/images/level_bg.png" />
+    <file src="data/images/bg.png" />
+    <file src="data/images/hp.png" />
+    <file src="data/images/kevlar.png" />
+    <file src="data/images/o2.png" />
+    <file src="data/images/i_hp.png" />
+    <file src="data/images/i_kevlar.png" />
+    <file src="data/images/i_o2.png" />
+    <file src="data/images/star_1.png" />
+    <file src="data/images/star_2.png" />
+
+    <file src="data/fx/circle.fx" />
+</meta>

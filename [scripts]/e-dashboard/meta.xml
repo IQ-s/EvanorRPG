@@ -1,0 +1,29 @@
+<meta>
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="pages.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+
+    <file src="data/images/bg.png" />
+    <file src="data/images/mask.png" />
+    <file src="data/images/lvl_bar.png" />
+    <file src="data/images/circle_level.png" />
+    <file src="data/images/lvl_bar_full.png" />
+    <file src="data/images/custom_avatar.png" />
+    <file src="data/images/page_bg.png" />
+    <file src="data/images/menu_bg.png" />
+    <file src="data/images/selected_page.png" />
+    <file src="data/images/main.png" />
+    <file src="data/images/task.png" />
+    <file src="data/images/daily.png" />
+    <file src="data/images/punish.png" />
+    <file src="data/images/settings.png" />
+    <file src="data/images/car.png" />
+    <file src="data/images/user_info_bg.png" />
+    <file src="data/images/daily_task_bg.png" />
+    <file src="data/images/money_bg.png" />
+    <file src="data/images/task_green.png" />
+    <file src="data/images/task_orange.png" />
+    <file src="data/images/task_red.png" />
+    <file src="data/images/task_icon.png" />
+</meta>

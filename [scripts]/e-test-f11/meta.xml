@@ -1,0 +1,8 @@
+<meta>
+    <script src="client.lua" type="client" cache="false" />
+
+    <file src="mask.fx" />
+    <file src="tex_matrix.fx" />
+    <file src="map.png" />
+    <file src="mask.png" />
+</meta>

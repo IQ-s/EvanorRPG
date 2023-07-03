@@ -1,0 +1,24 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+
+    <file src="data/images/bg.png" />
+    <file src="data/images/mask.png" />
+    <file src="data/images/wskazowka.png" />
+    <file src="data/images/bg_paliwo.png" />
+    <file src="data/images/brake.png" />
+    <file src="data/images/engine.png" />
+    <file src="data/images/lights.png" />
+    <file src="data/images/lock.png" />
+    <file src="data/images/bg2.png" />
+    <file src="data/images/mask2.png" />
+    <file src="data/images/bg_filled.png" />
+    <file src="data/images/bg_fuel.png" />
+    <file src="data/images/fuel_filled.png" />
+
+    <file src="data/fx/circle.fx" />
+
+    <file src="data/images/DigitalNumbers-Regular.ttf" />
+</meta>

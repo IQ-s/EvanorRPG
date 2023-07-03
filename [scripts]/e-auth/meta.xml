@@ -1,0 +1,19 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="pages.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+    
+    <file src="data/images/background.png" />
+    <file src="data/images/logo.png" />
+    <file src="data/images/preview.png" />
+    <file src="data/images/button.png" />
+    <file src="data/images/button1.png" />
+    <file src="data/images/button2.png" />
+    <file src="data/images/editbox.png" />
+    <file src="data/images/checkbox.png" />
+    <file src="data/images/checkbox_selected.png" />
+    <file src="data/images/bg_main.png" />
+</meta>

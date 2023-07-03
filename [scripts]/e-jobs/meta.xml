@@ -1,0 +1,20 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <!-- <script src="wrap.lua" type="client" cache="fales" /> -->
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="pages.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+
+    <file src="data/images/bg.png" />
+    <file src="data/images/exit.png" />
+    <file src="data/images/option_bg.png" />
+    <file src="data/images/info.png" />
+    <file src="data/images/upgrades.png" />
+    <file src="data/images/stats.png" />
+    <file src="data/images/option_bg_hovered.png" />
+    <file src="data/images/button_start.png" />
+    <file src="data/images/upgrade_button.png" />
+    <file src="data/images/wykres_bg.png" />
+</meta>

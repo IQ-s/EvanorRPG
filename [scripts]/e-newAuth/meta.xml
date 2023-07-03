@@ -1,0 +1,57 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="pages.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+
+    <file src="data/images/background.png" />
+    <file src="data/images/left_light.png" />
+    <file src="data/images/right_light.png" />
+    <file src="data/images/logo.png" />
+    <file src="data/images/login.png" />
+    <file src="data/images/register.png" />
+    <file src="data/images/login_hover.png" />
+    <file src="data/images/register_hover.png" />
+    <file src="data/images/logo_2.png" />
+    <file src="data/images/changelog.png" />
+    <file src="data/images/rule.png" />
+    <file src="data/images/changelog_hover.png" />
+    <file src="data/images/rule_hover.png" />
+    <file src="data/images/bg_players.png" />
+    <file src="data/images/i_players.png" />
+    <file src="data/images/bg_music.png" />
+    <file src="data/images/i_music.png" />
+    <file src="data/images/i_login.png" />
+    <file src="data/images/i_login_hover.png" />
+    <file src="data/images/i_register_hover.png" />
+    <file src="data/images/i_register.png" />
+    <file src="data/images/i_changelog_hover.png" />
+    <file src="data/images/i_rule.png" />
+    <file src="data/images/i_rule_hover.png" />
+    <file src="data/images/bg_rules.png" />
+    <file src="data/images/return.png" />
+    <file src="data/images/bg_changelog.png" />
+    <file src="data/images/i_header_changelog.png" />
+    <file src="data/images/bg_login.png" />
+    <file src="data/images/i_login2.png" />
+    <file src="data/images/i_forgotpassword.png" />
+    <file src="data/images/remember_1.png" />
+    <file src="data/images/button.png" />
+    <file src="data/images/bg_newpassword.png" />
+    <file src="data/images/bg_register.png" />
+    <file src="data/images/remember_2.png" />
+    <file src="data/images/map.png" />
+    <file src="data/images/map_mask.png" />
+    <file src="data/images/bg_loc.png" />
+    <file src="data/images/bg_loc_hover.png" />
+    <file src="data/images/i_loc.png" />
+    <file src="data/images/bg_loc_panel.png" />
+    <file src="data/images/bg_loc_panel_hover.png" />
+    <file src="data/images/i_password.png" />
+    <file src="data/images/i_mail.png" />
+
+    <file src="data/fx/mask.fx" />
+    <file src="data/fx/tex_matrix.fx" />
+</meta>

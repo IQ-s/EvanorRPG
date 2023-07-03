@@ -1,0 +1,16 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+
+    <file src="data/images/error.png" />
+    <file src="data/images/success.png" />
+    <file src="data/images/info.png" />
+    <file src="data/images/erroricon.png" />
+    <file src="data/images/infoicon.png" />
+    <file src="data/images/successicon.png" />
+
+    <export function="sendNotification" type="shared" />
+</meta>

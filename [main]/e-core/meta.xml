@@ -1,0 +1,34 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="main.lua" type="server" />
+    <script src="utils_client.lua" type="client" cache="false" />
+
+    <script src="utils/db.lua" type="server" />
+
+    <script src="players/id.lua" type="server" />
+    <script src="players/accounts.lua" type="server" />
+    <script src="players/utils.lua" type="server" />
+    <script src="players/data.lua" type="server" />
+    <script src="players/chat.lua" type="server" />
+
+    <script src="discord/main.lua" type="server" />
+    <script src="discord/syncAccount.lua" type="server" />
+    <script src="discord/webhook.lua" type="server" />
+
+    <script src="admins/main.lua" type="server" />
+    <script src="admins/noclip.lua" type="client" cache="false" />
+    <script src="admins/shared.lua" type="shared" cache="false" />
+    <script src="admins/logs.lua" type="client" cache="false" />
+    <script src="admins/commands.lua" type="server" />
+
+    <export function="findPlayer" type="server" />
+    <export function="createAccount" type="server" />
+    <export function="query" type="server" />
+    <export function="loginAccount" type="server" />
+    <export function="saveCoreLog" type="server" />
+    <export function="getRankName" type="shared" />
+    <export function="getRankColor" type="shared" />
+
+    <min_mta_version server="1.5.4-9.11413"/>
+</meta>

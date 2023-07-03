@@ -1,0 +1,20 @@
+<meta>
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+
+    <file src="data/images/background.png" />
+    <file src="data/images/circle.png" />
+    <file src="data/images/option_circle.png" />
+    <file src="data/images/option_bg.png" />
+    <file src="data/images/option_bg_hovered.png" />
+    <file src="data/images/option_circle_hovered.png" />
+    <file src="data/images/lock.png" />
+    <file src="data/images/open.png" />
+
+    <file src="data/fx/ped_wall.fx" />
+    <file src="data/fx/ped_wall_mrt.fx" />
+    <file src="data/fx/post_edge.fx" />
+
+     <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>

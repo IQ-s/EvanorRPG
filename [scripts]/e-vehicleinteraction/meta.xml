@@ -1,0 +1,22 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    <script src="server.lua" type="server" />
+
+    <file src="data/images/bg.png" />
+    <file src="data/images/options_circle.png" />
+    <file src="data/images/options_circle_hovered.png" />
+    <file src="data/images/options_selected.png" />
+    <file src="data/images/option_bg.png" />
+    <file src="data/images/engine.png" />
+    <file src="data/images/brake.png" />
+    <file src="data/images/lights.png" />
+    <file src="data/images/zawieszenia.png" />
+    <file src="data/images/option_circle_bg.png" />
+    <file src="data/images/options_kurwaaaa.png" />
+    <file src="data/images/options_kurwaaaa2.png" />
+
+    <min_mta_version client="1.3.0-9.04431"/>
+</meta>

@@ -1,0 +1,31 @@
+<meta>
+    <script src='main.lua' type='client' cache='false'/>
+    <script src='useful.lua' type='client' cache='false'/>
+    <script src='element.lua' type='client' cache='false'/>
+    <script src='editbox.lua' type='client' cache='false'/>
+    <script src='fonts.lua' type='client' cache='false'/>
+
+    <export function='createEditbox' type='client'/>
+    <export function='setEditboxText' type='client'/>
+    <export function='getEditboxText' type='client'/>
+    <export function='getEditboxText' type='client'/>
+    <export function='getElement' type='client'/>
+    <export function='destroyUIElement' type='client'/>
+    <export function='setElementActive' type='client'/>
+    <export function='getZoom' type='client'/>
+    <export function='getFont' type='client'/>
+    <export function='setElementAlpha' type='client' />
+    <export function="fadeElement" type="client" />
+
+    <file src="data/fonts/black.ttf" />
+    <file src="data/fonts/bold.ttf" />
+    <file src="data/fonts/light.ttf" />
+    <file src="data/fonts/medium.ttf" />
+    <file src="data/fonts/regular.ttf" />
+    <file src="data/fonts/semibold.ttf" />
+
+    <file src="data/images/i_login2.png" />
+
+
+    <download_priority_group>20</download_priority_group>
+</meta>

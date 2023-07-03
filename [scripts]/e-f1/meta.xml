@@ -1,0 +1,18 @@
+<meta>
+    <info author="Daniel IQ Wójcik <iq21376@gmail.com>" />
+
+    <script src="utils.lua" type="client" cache="false" />
+    <script src="pages.lua" type="client" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+
+    <file src="data/images/bg.png" />
+    <file src="data/images/menu_line.png" />
+    <file src="data/images/bg_menu.png" />
+    <file src="data/images/i_info.png" />
+    <file src="data/images/i_changelog.png" />
+    <file src="data/images/i_rule.png" />
+    <file src="data/images/i_guide.png" />
+    <file src="data/images/bg_menu_hover.png" />
+
+    <min_mta_version client="1.3.0-9.04431"/>
+</meta>
