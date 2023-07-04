@@ -62,6 +62,36 @@ function main:init()
         },
     }
 
+    self.punish = {
+        {
+            nick = 'Darhal',
+            date = '2023/07/04',
+            type = 'Prawo jazdy',
+            time = '4 godziny',
+            reason = 'Odwalanie'
+        },
+        {
+            nick = 'jak,is tam inny nick',
+            date = '2023/07/04',
+            type = 'Mute',
+            time = '1 dzien',
+            reason = 'CBK'
+        }
+    }
+
+    self.vehicles = {
+        {
+            model = 411,
+            lastDriver = 'Danny',
+            locate = {0,0,0}
+        },
+        {
+            model = 412,
+            lastDriver = 'Darhal',
+            locate = {90,123,2}
+        }
+    }
+
     addEvent('fetchPlayerData',true)
     addEventHandler('fetchPlayerData',root,function (data)
         self.loaded = true
@@ -150,7 +180,9 @@ function main:init()
                 ['task_icon'] = true,
                 ['daily_award_earned'] = true,
                 ['daily_award_toget'] = true,
-                ['daily_award_nextday'] = true
+                ['daily_award_nextday'] = true,
+                ['button_daily'] = true,
+                ['circle'] = true
             }
             local c2 = {
                 [1] = { name = 'medium', size = 18/zoom },
@@ -160,7 +192,9 @@ function main:init()
                 [5] = { name = 'medium', size = 15/zoom },
                 [6] = { name = 'light', size = 17/zoom },
                 [7] = { name = 'bold', size = 13/zoom },
+                [8] = { name = 'medium', size = 31/zoom },
             }
+            self.fonts['chinese'] = dxCreateFont('data/images/chinese.ttf',12/zoom)
             for i,v in pairs(c) do
                 self.textures[i] = dxCreateTexture('data/images/'..i..'.png')
             end

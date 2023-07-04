@@ -29,4 +29,8 @@
     <file src="data/images/daily_award_earned.png" />
     <file src="data/images/daily_award_toget.png" />
     <file src="data/images/daily_award_nextday.png" />
+    <file src="data/images/button_daily.png" />
+    <file src="data/images/circle.png" />
+
+    <file src="data/images/chinese.ttf" />
 </meta>

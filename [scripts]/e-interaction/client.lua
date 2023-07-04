@@ -31,7 +31,7 @@ function main:render()
         dxDrawRectangle(self.item.absX + 30/zoom/2 + 10/zoom, self.item.absY - 13/zoom, 3/zoom, offset - 4/zoom, tocolor(120,120,120,self.alpha[2]))
     end
 end
-
+    
 function main:click(btn, state, ax, ay, wx, wy, wz, element)
     if (btn == 'left' and state == 'down' and not self.animation) then
         if (self.item) then
