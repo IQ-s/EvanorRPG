@@ -151,7 +151,20 @@ function main:getPages()
             end,
             exit = function ()
             end,
-            render = function (self)
+            render = function ()
+                dxDrawRectangle(sx/2 + -149/zoom, sy/2 + -202/zoom, 599/zoom, 2/zoom,tocolor(68,68,68,self.alpha[2]))
+                dxDrawText('ID pojazdu', sx/2 + -150/zoom, sy/2 + -241/zoom, (sx/2 + -150/zoom) + (83/zoom), (sy/2 + -241/zoom) + (20/zoom), tocolor(232, 232, 232, self.alpha[2]), 1, self.fonts[3], 'left', 'top')
+                dxDrawText('Model', sx/2 + -22/zoom, sy/2 + -241/zoom, (sx/2 + -22/zoom) + (51/zoom), (sy/2 + -241/zoom) + (20/zoom), tocolor(232, 232, 232, self.alpha[2]), 1, self.fonts[3], 'left', 'top')
+                dxDrawText('Ost. kierowca', sx/2 + 92/zoom, sy/2 + -241/zoom, (sx/2 + 92/zoom) + (106/zoom), (sy/2 + -241/zoom) + (20/zoom), tocolor(232, 232, 232, self.alpha[2]), 1, self.fonts[3], 'left', 'top')
+                dxDrawText('Lokalizacja', sx/2 + 240/zoom, sy/2 + -241/zoom, (sx/2 + 240/zoom) + (87/zoom), (sy/2 + -241/zoom) + (20/zoom), tocolor(232, 232, 232, self.alpha[2]), 1, self.fonts[3], 'left', 'top')
+                local offset = 0
+                for i,v in pairs(self.vehicles) do
+                    offset = offset + dxGetFontHeight(1,self.fonts[2])
+                    dxDrawText(i, sx/2 + -150/zoom, sy/2-200/zoom+offset, nil, nil, tocolor(232, 232, 232,self.alpha[2]),1,self.fonts[2],'left','center')
+                    dxDrawText(getVehicleNameFromModel(v.model), sx/2 + -22/zoom, sy/2-200/zoom+offset, nil, nil, tocolor(232, 232, 232,self.alpha[2]),1,self.fonts[2],'left','center')
+                    dxDrawText(v.lastDriver, sx/2 + 92/zoom, sy/2-200/zoom+offset, nil, nil, tocolor(232, 232, 232,self.alpha[2]),1,self.fonts[2],'left','center')
+                    dxDrawText(getZoneName(unpack(v.locate)), sx/2 + 240/zoom, sy/2-200/zoom+offset, nil, nil, tocolor(232, 232, 232,self.alpha[2]),1,self.fonts[2],'left','center')
+                end
             end,
             y = sy/2-200/zoom + 52/zoom + 52/zoom + 52/zoom + 52/zoom + 52/zoom,
             icon = 'car'
